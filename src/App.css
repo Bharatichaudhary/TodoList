@@ -1,0 +1,88 @@
+body{
+  background-color: black;
+}
+.App {
+  text-align: center;
+  justify-content: center;
+}
+input{
+  margin-bottom: 2rem;
+  height: 2rem;
+  width: 50%;
+  
+}
+label{
+  display: block;
+  font-size: larger;
+  font-family: cursive;
+}
+.cross{
+  border: none;
+  color: red;
+  background-color:black ;
+  margin-left: 5px;
+}
+.add{
+  padding:0.5rem 2rem;
+  font-size: larger;
+  background-color: cadetblue;
+  border: none;
+}
+.text{
+  font-size: large;
+  padding: 0.5rem;
+  border: 2px solid black;
+
+}
+ul{
+  margin: 1% 10%;
+}
+ol{
+  text-align: center;
+  margin-left: -50px;
+  font-size: 1.5rem;
+  font-weight:bold;
+  color: rgb(185, 189, 192);
+
+}
+.box{
+  color: rgb(221, 216, 209);
+}
+.opts input,label{
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+.opts input{
+  width: 5%;
+  height: 1.5rem;
+}
+.opts input:hover{
+  cursor: pointer;
+}
+.question{
+  font-size: 2rem;
+  color: aqua;
+}
+#box{
+  text-align: left;
+}
+.submit{
+  border:none;
+  background-color: rgb(226, 180, 81);
+  float: left;
+  margin: 0px 3rem;
+  padding: 0.5rem 1rem;
+}
+
+.option{
+  margin: 2% 25%;
+}
+
+.option:hover{
+  background-color: rgb(149, 236, 149);
+  color: black;
+}
+h2{
+  color: white;
+}
